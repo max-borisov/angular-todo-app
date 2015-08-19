@@ -5,14 +5,14 @@
   app.directive('projects', function() {
     return {
       restrict: 'E',
-      templateUrl: '/assets/templates/projects.html'
+      templateUrl: '/angular-todo-app/assets/templates/projects.html'
     };
   });
 
   app.directive('tasks', function() {
     return {
       restrict: 'E',
-      templateUrl: '/assets/templates/tasks.html'
+      templateUrl: '/angular-todo-app/assets/templates/tasks.html'
     };
   });
 
