@@ -28,7 +28,7 @@ article {
 }
 article .todo-header {
   border: 1px solid #315587;
-  background: url("/assets/images/todo-header-icon.png") 15px 50% no-repeat, #4165a3 url("/assets/images/todo-header-bg.png") left top repeat;
+  background: url("../images/todo-header-icon.png") 15px 50% no-repeat, #4165a3 url("../images/todo-header-bg.png") left top repeat;
   height: 50px;
   padding: 0 16px;
   color: #ffffff;
@@ -83,7 +83,7 @@ article .todo-header ul li {
   text-indent: -999px;
 }
 article .todo-header ul li .todo-action-edit, article .todo-header ul li .todo-action-remove {
-  background: url("/assets/images/todo-header-actions.png");
+  background: url("../images/todo-header-actions.png");
   display: block;
   width: 27px;
   height: 17px;
@@ -92,7 +92,7 @@ article .todo-header ul li .todo-action-edit, article .todo-header ul li .todo-a
 }
 article .todo-header ul li .todo-action-remove {
   width: 26px;
-  background: url("/assets/images/todo-header-actions.png") -27px 0;
+  background: url("../images/todo-header-actions.png") -27px 0;
 }
 article .todo-bar {
   background: -webkit-linear-gradient(top, #dedede, #cccccc);
@@ -105,7 +105,7 @@ article .todo-bar {
 }
 article .todo-bar .todo-bar-new {
   height: 50px;
-  background: url("/assets/images/todo-bar-cross.png") no-repeat 13px 50%;
+  background: url("../images/todo-bar-cross.png") no-repeat 13px 50%;
   padding-left: 50px;
 }
 article .todo-bar .todo-bar-new form {
@@ -219,7 +219,7 @@ article .todo-list table tr .todo-list-actions ul li {
 article .todo-list table tr .todo-list-actions ul li .todo-list-task-sort, article .todo-list table tr .todo-list-actions ul li .todo-list-task-edit, article .todo-list table tr .todo-list-actions ul li .todo-list-task-delete {
   display: block;
   text-indent: -999px;
-  background: url("/assets/images/todo-list-actions.png") no-repeat;
+  background: url("../images/todo-list-actions.png") no-repeat;
 }
 article .todo-list table tr .todo-list-actions ul li .todo-list-task-sort {
   width: 21px;
@@ -243,7 +243,7 @@ article .todo-list table tr .todo-list-actions ul li .todo-list-task-delete {
   line-height: 46px;
   border-radius: 2px 2px 2px 2px;
   border: 1px solid #315587;
-  background: url("/assets/images/todo-btn-cross.png") 10px 50% no-repeat, #4171b5 url("/assets/images/todo-btn-bg.png") left top repeat-x;
+  background: url("../images/todo-btn-cross.png") 10px 50% no-repeat, #4171b5 url("../images/todo-btn-bg.png") left top repeat-x;
   color: #fff;
   font-size: 16px;
   padding: 0;
