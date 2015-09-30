@@ -3,7 +3,7 @@
   var template = '/assets/templates/';
   // Path for Github pages project
   if (window.location.href.indexOf('angular') != -1) {
-    template = '/angular-todo-app' + template;
+    template = '/todo-angular' + template;
   }
 
   var app = angular.module('directives', []);
