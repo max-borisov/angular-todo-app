@@ -1,0 +1,25 @@
+<article ng-repeat='project in projects'>
+  <div class="todo-header">
+    <h3>{{ project.title }}</h3>
+    <ul>
+      <li>
+        <a class="todo-action-edit" href="#" title="Edit" ng-click="editProjectTitle(project, $event)">Edit</a>
+      </li>
+      <li>
+        <a class="todo-action-remove" href="#" title="Delete" ng-click="deleteProject(project, $event)">Delete</a>
+      </li>
+    </ul>
+    <form ng-submit="saveProjectTitle(project, $event)">
+      <input name="" type="text" />
+    </form>
+  </div>
+  <div class="todo-bar" ng-controller='TaskController'>
+    <div class="todo-bar-new">
+      <form ng-submit='addTask(project)'>
+        <input ng-model='task' placeholder="Start typing here to create a task..." type="text" />
+        <button>Add Task</button>
+      </form>
+    </div>
+  </div>
+  <tasks></tasks>
+</article>
