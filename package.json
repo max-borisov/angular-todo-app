@@ -1,0 +1,23 @@
+{
+  "name": "angular-todo",
+  "version": "1.0.0",
+  "description": "Todo app build with AngularJS ===",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "static -p 8989"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-borisov/todo-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-borisov/todo-angular/issues"
+  },
+  "homepage": "https://github.com/max-borisov/todo-angular#readme",
+  "devDependencies": {
+    "static-server": "^2.0.0"
+  }
+}
