@@ -1,21 +1,24 @@
 (function() {
 
+  var template = '/assets/templates/';
+  // Path for Github pages project
+  if (window.location.host.indexOf('angular') != -1) {
+    template += '/angular-todo-app' + template;
+  }
+
   var app = angular.module('directives', []);
 
   app.directive('projects', function() {
     return {
       restrict: 'E',
-      // templateUrl: '/angular-todo-app/assets/templates/projects.html'
-      templateUrl: '/assets/templates/projects.html'
+      templateUrl: template + 'projects.html'
     };
   });
 
   app.directive('tasks', function() {
     return {
       restrict: 'E',
-      // templateUrl: '/angular-todo-app/assets/templates/tasks.html'
-      templateUrl: '/assets/templates/tasks.html'
+      templateUrl: template + 'tasks.html'
     };
   });
-
 })();
