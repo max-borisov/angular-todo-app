@@ -2,7 +2,7 @@
 
   var template = '/assets/templates/';
   // Path for Github pages project
-  if (window.location.host.indexOf('angular') != -1) {
+  if (window.location.href.indexOf('angular') != -1) {
     template += '/angular-todo-app' + template;
   }
 
